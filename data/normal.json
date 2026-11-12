@@ -1,0 +1,67 @@
+{
+  "kind": "staggered-att",
+  "panel": {
+    "path": "panel.jsonl",
+    "bytes": 13496,
+    "sha256": "a6804634938b43cc2b3cbc1745a2adf461eebf67030dd70f90f8e5d87e8b7af1",
+    "rows": 168
+  },
+  "anticipation": 0,
+  "event_window": [
+    0,
+    1
+  ],
+  "folds": {
+    "d0": 0,
+    "d1": 1,
+    "d2": 2,
+    "d3": 0,
+    "d4": 1,
+    "d5": 2,
+    "d6": 0,
+    "d7": 1,
+    "d8": 2,
+    "d9": 0,
+    "d10": 1,
+    "d11": 2
+  },
+  "covariates": [
+    "x"
+  ],
+  "population_weights": {
+    "d0-h0": "1",
+    "d0-h1": "1",
+    "d1-h0": "1",
+    "d1-h1": "1",
+    "d2-h0": "1",
+    "d2-h1": "1",
+    "d3-h0": "1",
+    "d3-h1": "1",
+    "d4-h0": "1",
+    "d4-h1": "1",
+    "d5-h0": "1",
+    "d5-h1": "1",
+    "d6-h0": "1",
+    "d6-h1": "1",
+    "d7-h0": "1",
+    "d7-h1": "1",
+    "d8-h0": "1",
+    "d8-h1": "1",
+    "d9-h0": "1",
+    "d9-h1": "1",
+    "d10-h0": "1",
+    "d10-h1": "1",
+    "d11-h0": "1",
+    "d11-h1": "1"
+  },
+  "bootstrap": {
+    "seed": 817,
+    "replicates": 199,
+    "multiplier": "Rademacher",
+    "confidence": "19/20"
+  },
+  "nuisance": {
+    "logit_penalty": "0",
+    "convergence_tolerance": "1/100000000"
+  }
+}
